@@ -87,15 +87,12 @@ class LatestMessageActivity : AppCompatActivity() {
             }
 
             override fun onChildMoved(p0: DataSnapshot, p1: String?) {
-
             }
 
             override fun onChildRemoved(p0: DataSnapshot) {
-
             }
 
             override fun onCancelled(p0: DatabaseError) {
-
             }
         })
     }

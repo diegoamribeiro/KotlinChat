@@ -66,8 +66,6 @@ class ChatLogActivity : AppCompatActivity() {
                        adapter.add(ChatFromItem(chatMessage.text, currentUser))
                    }else{
                        adapter.add(ChatToItem(chatMessage.text, toUser!!))
-
-
                    }
 
                }
@@ -86,7 +84,6 @@ class ChatLogActivity : AppCompatActivity() {
             }
 
             override fun onChildRemoved(p0: DataSnapshot) {
-
             }
         })
     }
