@@ -49,6 +49,7 @@ class LatestMessageActivity : AppCompatActivity() {
             row.chatPartnerUser
             intent.putExtra(USER_KEY, row.chatPartnerUser)
          startActivity(intent)
+            var teste = ""
 
         }
     }
