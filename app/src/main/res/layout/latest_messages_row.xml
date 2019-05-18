@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:orientation="vertical"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="100dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/default_photo_mini"
+            android:id="@+id/imageview_latest_message"
+            android:src="@drawable/default_photo_mini"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="16dp"
+            app:civ_border_color="@color/bg_login"
+            app:civ_border_width="1dp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+    <TextView
+            android:text="Username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/username_textview_latest_message"
+            app:layout_constraintBottom_toBottomOf="@+id/imageview_latest_message"
+            app:layout_constraintTop_toTopOf="@+id/imageview_latest_message" android:layout_marginBottom="24dp"
+            android:textSize="18sp" app:layout_constraintStart_toEndOf="@+id/imageview_latest_message"
+            android:layout_marginStart="20dp" android:textColor="@color/bg_login" android:textStyle="bold"
+    />
+    <TextView
+            android:text="Latest Messages"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/message_textview"
+            app:layout_constraintBottom_toBottomOf="@+id/imageview_latest_message"
+            app:layout_constraintTop_toBottomOf="@+id/username_textview_latest_message"
+            app:layout_constraintStart_toEndOf="@+id/imageview_latest_message" android:layout_marginStart="20dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="24dp" android:textSize="14sp"
+            android:layout_marginTop="8dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

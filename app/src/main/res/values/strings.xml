@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Kotlin Messeger</string>
+    <string name="j_tem_uma_conta">Já tem uma conta?</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="password">Password</string>
+    <string name="appbar_scrolling_view_behavior">value</string>
+</resources>

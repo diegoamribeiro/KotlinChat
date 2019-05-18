@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#0F2D3D</color>
+    <color name="bg_login">#0F2D3D</color>
+    <color name="txt_chat">#0F2D3D</color>
+    <color name="btn_login">#FF5E5B</color>
+    <color name="bg_edit_text_login">#F2FCFC</color>
+    <color name="bg_edit_text_hint_login">#AFD4E7</color>
+    <color name="bg_recycler_chatlog">#F2FCFC</color>
+    <color name="bg_from_ballon">#D9F6F4</color>
+    <color name="bg_to_ballon">#FFF7F6</color>
+
+</resources>
